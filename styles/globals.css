@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heroButton {
+        @apply px-3 py-2 rounded-full uppercase text-sm tracking-widest text-crepe transition-all hover:text-crimson
+    }
+
+    .contactInput {
+        @apply outline-none bg-crimson/10 rounded-sm border-b px-6 py-4 text-crepe border-crepe placeholder-crepe transition-all focus:border-crimson/40 focus:text-crimson
+    }
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #EFE4E6 !important;
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
