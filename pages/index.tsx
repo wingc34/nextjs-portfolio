@@ -31,7 +31,7 @@ export default function Home({
   return (
     <div className="relative bg-[rgb(188,175,189)] text-white h-screen snap-y snap-mandatory z-0 overflow-y-scroll overflow-x-hidden scrollbar-hide">
       <Head>
-        <title>Wing's Portfolio</title>
+        <title>Wing&apos;s Portfolio</title>
       </Head>
       <Header />
 
