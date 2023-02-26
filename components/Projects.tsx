@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Project } from "@/typings";
-import { urlFor } from "@/sanity";
+import { urlFor } from "lib/sanity";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";

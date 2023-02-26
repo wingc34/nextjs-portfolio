@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import { Experience } from "@/typings";
-import { urlFor } from "@/sanity";
+import { urlFor } from "lib/sanity";
 import dayjs from 'dayjs'
 
 type Props = { experience: Experience };

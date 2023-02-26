@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Skill as SkillType } from "@/typings";
-import { urlFor } from "@/sanity";
+import { urlFor } from "lib/sanity";
 
 type Props = { skill: SkillType };
 
