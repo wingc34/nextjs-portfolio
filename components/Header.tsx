@@ -4,9 +4,9 @@ import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
-type Props = {};
+type Props = { };
 
-export default function Header({}: Props) {
+export default function Header({ }: Props) {
   return (
     <header className="sticky top-0 p-5 flex items-start justify-end max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
@@ -27,8 +27,6 @@ export default function Header({}: Props) {
           url="https://linkedin.com/in/wing-chung-ba5ab1193"
           fgColor="white"
           bgColor="transparent"
-          target="_blank"
-          rel="noopener noreferrer"
         />
         <Link href="#contact">
           <div className="flex flex-row items-center cursor-pointer">
