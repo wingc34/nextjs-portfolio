@@ -70,6 +70,12 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const projects: Project[] = await fetchProjects();
   const socials: Social[] = await fetchSocials();
 
+  if (!pageInfo && !experiences && !skills && !projects && !socials) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       pageInfo,
