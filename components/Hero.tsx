@@ -53,16 +53,16 @@ export default function Header({pageInfo}: Props) {
       </h1>
 
       <div className="z-10 pt-5" style={{'margin': '0px'}}>
-        <Link href="#about">
+        <Link href="#about" className="cursor-pointer">
           <button className="heroButton">About</button>
         </Link>
-        <Link href="#experience">
+        <Link href="#experience" className="cursor-pointer">
           <button className="heroButton">Experience</button>
         </Link>
-        <Link href="#skills">
+        <Link href="#skills" className="cursor-pointer">
           <button className="heroButton">Skills</button>
         </Link>
-        <Link href="#projects">
+        <Link href="#projects" className="cursor-pointer">
           <button className="heroButton">Projects</button>
         </Link>
       </div>
