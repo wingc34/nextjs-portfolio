@@ -20,7 +20,7 @@ export default function Skills({ skills }: Props) {
       <h3 className="absolute top-20 md:top-36 uppercase tracking-[3px] text-crepe text-sm my-4">
         Hover over a skill for currency profieciency
       </h3>
-      <div className="grid grid-cols-4 gap-2 md:gap-5">
+      <div className="grid grid-cols-4 md:grid-cols-5 gap-2 md:gap-5">
         {sortedSkills?.map((skill) => (
           <Skill key={skill._id} skill={skill} />
         ))}
